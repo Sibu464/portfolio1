@@ -1,0 +1,14 @@
+.letter {
+    z-index: -1;
+    display: inline-block;
+    font-size: 48px;
+    opacity: 0;
+    transform: translateY(-100vh);
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  }
+  
+  .falling {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

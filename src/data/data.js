@@ -1,6 +1,7 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
 import RealEst from '../assets/projects/realestate.jpg'
 import CyberGi from '../assets/projects/cybergi.png'
+import food from '../assets/projects/food.png'
 
 export const data=[
     {
@@ -12,14 +13,14 @@ export const data=[
     },
     {
         id:2,
-        name:"React JS Application",
-        // image:RealEst,
+        name:"Flutter Application",
+        image:food,
         github:"",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
+        name:"FLutter Application",
         // image:WorkIm,
         github:"",
         live:"",
